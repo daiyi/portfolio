@@ -1,9 +1,13 @@
+dist: xenial
+
 # Install the apt prerequisites
 addons:
+  snaps:
+    - hugo
   apt:
     packages:
       - python-pygments
-      - hugo
+
 
 # Clean and don't fail
 install:
