@@ -1,13 +1,15 @@
-dist: xenial
+language: go
+go:
+  - 1.7.1
 
 # Install the apt prerequisites
 addons:
-  snaps:
-    - hugo
   apt:
     packages:
       - python-pygments
 
+before_script:
+  - go get -u -v github.com/spf13/hugo
 
 # Clean and don't fail
 install:
