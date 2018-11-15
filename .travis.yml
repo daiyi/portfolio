@@ -15,7 +15,7 @@ install:
 
 # Build the website
 script:
-  - yarn build
+  - yarn --cwd /themes/gallery build
   - hugo --theme=gallery
 
 # Deploy to GitHub pages
