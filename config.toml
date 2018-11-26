@@ -12,7 +12,7 @@ enableRobotsTXT = true            # generate robots.txt
 defaultContentLanguage = "en"     # Missing translations will default to this content language
 
 [params.info]
-description = ""
+description = "drawings & projects"
 title404 = "not a real page"
 
 [params.assets]

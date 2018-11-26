@@ -1,10 +1,9 @@
 ---
 date: 2017-09-28T08:00:00+06:00
-title: Typography
-
+title: "[typography]"
 slug: typography
-menu: main
-weight: -230
+menu: sidebar
+weight: 230
 ---
 
 Here is a paragraph. **Lorem ipsum _dolor_ sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
