@@ -6,7 +6,7 @@ categories:
 tags:
   - journaling
 # cover:
-#   image: /drawings/sierra/blue_landscape_watercolour_naturejournal_22.png
+#   image: 
 #   caption:
-#   style: full
+#   style: wide
 ---

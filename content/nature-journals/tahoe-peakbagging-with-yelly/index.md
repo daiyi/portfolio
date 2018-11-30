@@ -8,11 +8,9 @@ tags:
   - tahoe
   - journaling
 cover:
-  image: /nature-journals/sierra/blue_landscape_watercolour_naturejournal_22.png
+  image: blue_landscape_watercolour_naturejournal_22.png
   caption: peakbagging tahoe
-  style: full
+  style: wide
 ---
-
-![](../sierra/blue_landscape_watercolour_naturejournal_22.png)
 
 with thanks to yelly & leo, my lovely hosts for the weekend (:

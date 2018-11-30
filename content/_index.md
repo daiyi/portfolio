@@ -2,4 +2,4 @@
 weight: -270
 ---
 
-\o/
+<!-- this is the description for the home page -->
