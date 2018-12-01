@@ -1,0 +1,21 @@
+{{ partial "header" . }}
+
+{{ partial "header/header" . }}
+
+{{ if .Content }}
+<div class='entry'>
+  {{ partial "entry/content" . }}
+</div>
+{{ end }}
+
+<div class='container list-container'>
+  <div class='covers'>
+    {{ range .Paginator.Pages }}
+      {{ .Render "cover_li" }}
+    {{ end }}
+  </div>
+
+  {{ partial "nav/pagination" . }}
+</div>
+
+{{ partial "footer" . }}

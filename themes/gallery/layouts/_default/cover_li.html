@@ -1,0 +1,47 @@
+{{- $type := ( printf "%T" .Params.cover ) -}}
+{{  $isMap := ( not ( eq $type "string" ) ) }}
+<!-- TODo this is the worst ): -->
+
+{{ with .Params.cover }}
+  {{ if $isMap }}
+    {{ $.Scratch.Set "imgFileName" .image }}
+  {{ else }}
+    {{ $.Scratch.Set "imgFileName" . }}
+  {{ end }}
+
+  {{ with $.Scratch.Get "imgFileName" }}
+    {{ with . | printf "*%v*"  | $.Resources.GetMatch }}
+      {{ $.Scratch.Set "coverResource" . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if not ( .Scratch.Get "coverResource" ) }}
+  {{ .Scratch.Set "coverResource" (index (.Resources.ByType "image") 0) }}
+{{ end }}
+
+{{ $cover := .Scratch.Get "coverResource" }}
+
+{{- with $cover.Permalink -}}
+  <div class='entry-cover cover-{{- if $isMap -}}
+    {{- with $.Params.cover.style -}} {{ . }} {{- else -}} normal {{- end -}}
+    {{- else -}} normal {{- end -}}
+  '>
+    <a href="{{ $.Permalink }}">
+      <figure>
+        <img src='{{ . | relURL }}'
+          {{- if $isMap }}
+            {{- with ( $.Params.cover.alternate | default $.Params.cover.caption ) }} alt='{{ . | markdownify }}'{{ end -}}
+          {{ end -}} />
+          {{ with $.Params.Title }}
+          <figcaption class='container'>
+            <span>
+              {{- . | markdownify -}}
+            </span>
+          </figcaption>
+          {{ end }}
+      </figure>
+    </a>
+  </div>
+
+{{- end -}}

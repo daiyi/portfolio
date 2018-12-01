@@ -1,0 +1,47 @@
+.covers {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
+  grid-template-rows: auto;
+  column-gap: 2em;
+  row-gap: 2em;
+}
+
+.entry-cover {
+  figure {
+    margin: 0;
+  }
+
+  img {
+    display: block;
+  }
+
+  figcaption {
+    text-align: center;
+    margin: 0.25em auto 0;
+    padding: 0;
+
+    span {
+      @include font-size(0.875);
+    }
+  }
+}
+
+.cover-normal {
+  grid-column-end: span 1;
+  grid-row-end: span 1;
+}
+
+.cover-wide {
+  // max-width: $max-width__cover-wide;
+  grid-column-end: span 2;
+  grid-row-end: span 2;
+}
+
+.cover-full {
+  padding: 0;
+  max-width: 100%;
+
+  img {
+    width: 100%;
+  }
+}

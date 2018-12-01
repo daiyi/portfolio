@@ -1,0 +1,27 @@
+{{ partial "header" . }}
+
+{{ if .Content }}
+<div class='entry'>
+  {{ partial "entry/content" . }}
+</div>
+{{ end }}
+
+<div class="covers">
+{{ range .Paginator.Pages }}
+    {{ if .Params.cover }}
+      {{ .Render "cover_li" }}
+    {{ end }}
+{{ end }}
+</div>
+{{ partial "nav/pagination" . }}
+
+{{- $homepageWidgets := .Site.Params.widgets.homepage -}}
+{{- if $homepageWidgets -}}
+<div class='home-widgets'>
+  <div class='container sep-before'>
+    {{- partial "extras/widget_area" ( dict "Widgets" $homepageWidgets "Scope" . ) -}}
+  </div>
+</div>
+{{- end -}}
+
+{{ partial "footer" . }}

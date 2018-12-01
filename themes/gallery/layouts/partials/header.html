@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang='{{ .Site.Language.Lang }}'>
+
+{{ partial "head/head" . }}
+
+<body class='{{ partial "header/bodyClasses" . }}'>
+
+  <div class='site'>
+
+    {{ partial "sidebar/sidebar" . }}
+
+    <div class='main'>
+
+      {{ partial "nav/menus/main" . }}
+
+      <!-- <header id='header' class='header site-header'>
+        <div class='container sep-after'>
+          <div class='header-info'>
+            // TODO home header
+            {{- if eq .Kind "home" -}}
+            {{- else -}}
+            {{- end -}}
+          </div>
+        </div>
+      </header> -->
+
+      <main id='content'>

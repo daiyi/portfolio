@@ -1,0 +1,21 @@
+{{- $permalink := .Permalink -}}
+
+<div class='container entry-content'>
+  {{ .Content }}
+
+  <!-- {{- with .Params.images -}}
+    {{- range . -}}
+      <img src="{{ . }}" />
+    {{- end -}}
+  {{- end -}} -->
+  {{ with .Resources.ByType "image" }}
+    <div id="lightgallery">
+      {{ range . }}
+  		<a href="{{ .RelPermalink }}" {{- with .Params.caption }} data-sub-html="{{ . }}" {{ end -}} >
+    		<img src="{{ .RelPermalink }}" />
+        {{ with .Params.caption }} {{ . }} {{ end }}
+    	</a>
+      {{ end }}
+    </div>
+  {{ end }}
+</div>
