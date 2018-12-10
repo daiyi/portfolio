@@ -1,4 +1,6 @@
 .header {
+  margin-bottom: 2.5em;
+
   .sep-after {
     &:after {
       border-bottom-color: $color__accent;
@@ -6,6 +8,7 @@
       .has-cover & {
         display: none;
       }
+      margin: 0;
     }
   }
 }

@@ -38,7 +38,7 @@ showReadingTime = true
 showLastmod = true
 taxonomyCloudShuffle = true
 accentColor = "#16e4d2"
-hideMainMenu = true
+hideMainMenu = false
 
 [params.sidebar]
 enable = true
@@ -79,11 +79,11 @@ tag = "tags"
 [permalinks]
 page = "/:slug/"
 
-[[menu.main]]
-name = "Repo"
-weight = -10
-identifier = "repository"
-url = "https://github.com/MunifTanjim/minimo"
+# [[menu.main]]
+# name = "about"
+# weight = -10
+# identifier = "about"
+# url = "https://daiyi.co"
 
 [languages]
 # edit this block for your own language

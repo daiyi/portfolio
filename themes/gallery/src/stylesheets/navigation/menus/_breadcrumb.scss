@@ -1,0 +1,10 @@
+#breadcrumb-menu {
+  .sub-menu {
+    li {
+      &:before {
+        content: "•";
+        color: $color__bluegrey-700;
+      }
+    }
+  }
+}

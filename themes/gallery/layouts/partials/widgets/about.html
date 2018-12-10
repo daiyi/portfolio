@@ -13,11 +13,13 @@
     </div>
     {{ end }}
     <h1 class='title site-title '>
-    {{ with $config.title }}
-      {{- . -}}
-    {{ else }}
-      {{- .Site.Title -}}
-    {{ end }}
+      <a href='{{ $.Site.Home.RelPermalink }}'>
+      {{ with $config.title }}
+        {{- . -}}
+      {{ else }}
+        {{- .Site.Title -}}
+      {{ end }}
+      </a>
     </h1>
     <div class='desc'>
     {{ with $config.description }}

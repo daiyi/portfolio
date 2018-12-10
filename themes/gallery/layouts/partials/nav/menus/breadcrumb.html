@@ -1,0 +1,79 @@
+{{- $defaultConfig := .Site.Data.config.default.widgets.sidebar_menu -}}
+{{- $configData := ( or .Site.Data.config.widgets.sidebar_menu $defaultConfig ) -}}
+{{- $lang := .Site.Language.Lang -}}
+{{- $config := ( ( index $configData $lang ) | default $configData ) -}}
+
+{{- $fullMenu := "sidebar" -}}
+{{- $breadcrumbMenu := "breadcrumb" -}}
+
+{{- $.Scratch.Set "breadcrumbMenu" $breadcrumbMenu -}}
+{{- $.Scratch.Set "fullMenu" $fullMenu -}}
+
+{{- $items := ( index .Site.Menus $fullMenu ) -}}
+
+<!-- TODO -->
+{{- if not 0 -}}
+
+  {{- if $items -}}
+
+    <nav id='breadcrumb-menu' class='menu breadcrumb-menu' aria-label='{{ i18n "breadcrumbMenu" }}'>
+      <div class=''>
+        <ul>
+        {{- range $items -}}
+          {{- template "breadcrumb_item" ( dict "Item" . "Page" $ "showTree" false) -}}
+        {{- end -}}
+        </ul>
+      </div>
+    </nav>
+
+  </section>
+
+  {{- end -}}
+
+{{- else -}}
+
+{{ partial "sidebar/toggler" . }}
+
+{{- end -}}
+
+
+
+
+
+
+{{- define "breadcrumb_item" -}}
+
+{{- $breadcrumbMenu := ( .Page.Scratch.Get "breadcrumbMenu" ) -}}
+{{- $fullMenu := ( .Page.Scratch.Get "fullMenu" ) -}}
+
+{{- $isCurrent := ( .Page.IsMenuCurrent $fullMenu .Item ) -}}
+{{- $hasCurrent := ( .Page.HasMenuCurrent $fullMenu .Item ) -}}
+{{- $hasChildren := ( .Item.HasChildren ) -}}
+
+<li class='item
+  {{- if $hasChildren }} has-children {{- end -}}
+  {{- if $hasCurrent }} has-current {{- end -}}
+  {{- if $isCurrent }} current {{- end -}}
+'>
+
+  <!-- # parent breadcrumb -->
+  {{- if (or $hasCurrent .showTree) -}}
+    <a class='item-link' {{ if $isCurrent -}} aria-current='page' {{ end -}} href='{{ .Item.URL }}'>
+      {{- .Item.Name -}}
+    </a>
+  {{- end -}}
+  
+  {{/*
+  <!-- # show children only if in breadcrumb chain -->
+  {{- if (and $isCurrent $hasChildren) -}}
+      <ul class='sub-menu'>
+      {{- range .Item.Children -}}
+        {{- template "breadcrumb_item" ( dict "Item" . "Page" $.Page  "showTree" true) -}}
+      {{- end -}}
+      </ul>
+  {{- end -}}
+  */}}
+
+</li>
+
+{{- end -}}

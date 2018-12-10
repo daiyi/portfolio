@@ -35,16 +35,14 @@
   }
 }
 
-.sep {
-  &-after:after,
-  &-before:before {
-    content: "";
-    display: block;
-    width: 4em;
-    margin-top: 2.5em;
-    margin-bottom: 2.5em;
-    border-bottom: 0.125em solid $color__grey;
-  }
+.sep-after:after,
+.sep-before:before {
+  content: "";
+  display: block;
+  width: 4em;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+  border-bottom: 0.125em solid $color__grey;
 }
 
 @import "sidebar/sidebar";

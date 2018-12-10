@@ -5,8 +5,8 @@
 
   &.sep-after {
     &:after {
-      margin-top: 1.5em;
-      margin-bottom: 1.5em;
+      margin-top: 2.5em;
+      margin-bottom: 2.5em;
     }
 
     &:last-of-type {
@@ -28,8 +28,8 @@
   }
 }
 
-@import 'about';
-@import 'recent-posts';
-@import 'search';
-@import 'social-menu';
-@import 'taxonomy-cloud';
+@import "about";
+@import "recent-posts";
+@import "search";
+@import "social-menu";
+@import "taxonomy-cloud";
