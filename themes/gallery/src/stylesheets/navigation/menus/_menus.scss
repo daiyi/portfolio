@@ -6,6 +6,10 @@
 
   li {
     text-transform: uppercase;
+    font-family: $font-family__header;
+    @include font-size(0.8);
+    letter-spacing: 0.1em;
+    margin-bottom: 0.5em;
 
     &.current {
       & > a {
@@ -16,8 +20,8 @@
   }
 }
 
-@import 'main';
-@import 'sidebar';
+@import "main";
+@import "sidebar";
 
 .menu a,
 .sub-menu-toggler,

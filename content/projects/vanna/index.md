@@ -9,4 +9,9 @@ tags:
   - vanlife
 cover:
   image: stamp
+menu:
+  sidebar:
+    parent: projects
 ---
+
+A branding project for the crag-side pop-up cafe that marco's van sometimes transforms into if the moment arises \o/

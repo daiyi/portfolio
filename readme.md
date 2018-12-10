@@ -20,7 +20,7 @@ debugging sadness:
 
 ### auto gallery
 
-each post has a gallery. make the proper folder structure.
+each post has a gallery. to activate, make the proper folder structure.
 
 - add `caption` metadata
 - see https://regisphilibert.com/blog/2018/01/hugo-page-resources-and-how-to-use-them/

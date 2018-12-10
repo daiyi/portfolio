@@ -47,22 +47,19 @@
   {{- if $hasCurrent }} has-current {{- end -}}
   {{- if $isCurrent }} current {{- end -}}
 '>
-  <a {{ if $isCurrent -}} aria-current='page' {{ end -}} href='{{ .Item.URL }}'>
+  <a class='item-link' {{ if $isCurrent -}} aria-current='page' {{ end -}} href='{{ .Item.URL }}'>
     {{- .Item.Name -}}
   </a>
 
+  <!-- # Expand menu if in this menu section -->
   {{- if $hasChildren -}}
-
-  <button class='sub-menu-toggler'>
-    <span class='screen-reader-text'>expand sub menu</span>
-    <span class='sign'></span>
-  </button>
-
-  <ul class='sub-menu'>
-  {{- range .Item.Children -}}
-    {{- template "menu_item" ( dict "Item" . "Page" $.Page ) -}}
-  {{- end -}}
-  </ul>
+    {{- if or $hasCurrent $isCurrent -}}
+      <ul class='sub-menu'>
+      {{- range .Item.Children -}}
+        {{- template "menu_item" ( dict "Item" . "Page" $.Page ) -}}
+      {{- end -}}
+      </ul>
+    {{- end -}}
   {{- end -}}
 
 </li>

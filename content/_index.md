@@ -2,4 +2,4 @@
 weight: -270
 ---
 
-<!-- this is the description for the home page -->
+a non-exhaustive tome of the things I like to do c:

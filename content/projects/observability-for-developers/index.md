@@ -7,4 +7,9 @@ tags:
   - tech
 cover:
   image: shipping
+menu:
+  sidebar:
+    parent: projects
 ---
+
+I illustrated an ebook about implementing observability.

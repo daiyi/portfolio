@@ -5,15 +5,15 @@
   {{ partial "entry/content" . }}
 </div>
 {{ end }}
-
-<div class="covers">
+<!-- # Homepage image flow -->
+<!-- <div class="covers">
 {{ range .Paginator.Pages }}
     {{ if .Params.cover }}
       {{ .Render "cover_li" }}
     {{ end }}
 {{ end }}
 </div>
-{{ partial "nav/pagination" . }}
+{{ partial "nav/pagination" . }} -->
 
 {{- $homepageWidgets := .Site.Params.widgets.homepage -}}
 {{- if $homepageWidgets -}}

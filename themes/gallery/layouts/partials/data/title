@@ -20,8 +20,9 @@
   {{ $title }} {{ $sep }} {{ $siteTitle }}
 {{- else -}}
   {{- if .Params.authors -}}
-    {{ $title }} {{ $sep }} {{ partial "data/author/displayName" . }}
+    {{ $title }} {{- with .Params.categories }} {{ $sep }} {{ (index . 0 ) }} {{ end -}}{{ $sep }} {{ partial "data/author/displayName" . }}
   {{- else -}}
-    {{ $title }} {{ $sep }} {{ $siteTitle }}
+    {{ $title }}
+    {{- with .Params.categories }} {{ $sep }} {{ (index . 0 ) }} {{ end -}}{{ $sep }} {{ $siteTitle }}
   {{- end -}}
 {{- end -}}
