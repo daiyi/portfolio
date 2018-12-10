@@ -1,6 +1,7 @@
 ---
 title: illustration
-menu: sidebar
+menu:
+  - sidebar
 weight: 10
 ---
 
