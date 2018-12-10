@@ -1,6 +1,6 @@
 ---
-title: a tiny life in the east size
-date: 2018-11-27:30:00+06:00
+title: a tiny life in the east side
+date: 2018-12-08T04:30:00+06:00
 categories:
   - zine
 tags:

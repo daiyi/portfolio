@@ -1,6 +1,6 @@
 ---
 title: a smol zine about clojure
-date: 2017-06-20T23:30:00+06:00
+date: 2017-07-15T23:30:00+06:00
 categories:
   - zine
 tags:

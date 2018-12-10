@@ -1,7 +1,7 @@
 ---
-title: comics
+title: illustration
 menu: sidebar
-weight: 30
+weight: 10
 ---
 
 slice of life comics and drawings from my sketchbooks.
