@@ -7,7 +7,7 @@ tags:
   - blacker
   - painting
 cover:
-  image: 8
+  image: 2
 menu:
   sidebar:
     name: light-up mural

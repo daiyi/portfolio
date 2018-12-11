@@ -7,7 +7,7 @@ tags:
   - construction
   - space coop
 cover:
-  image:
+  image: 2
   caption:
   style:
 menu:

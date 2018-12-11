@@ -4,5 +4,5 @@ menu:
   sidebar:
     parent: graphic design
 cover:
-  image: /graphic-design/cover-design/adventure-log/adventurelog.jpg
+  image: adventurelog.jpg
 ---
