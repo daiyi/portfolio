@@ -22,7 +22,6 @@
   {{- if .Params.authors -}}
     {{ $title }} {{- with .Params.categories }} {{ $sep }} {{ (index . 0 ) }} {{ end -}}{{ $sep }} {{ partial "data/author/displayName" . }}
   {{- else -}}
-    {{ $title }}
-    {{- with .Params.categories }} {{ $sep }} {{ (index . 0 ) }} {{ end -}}{{ $sep }} {{ $siteTitle }}
+    {{ $title }}{{- print " " -}}{{- with .Params.categories }} {{ $sep }} {{ (index . 0 ) }} {{ end -}}{{ $sep }} {{ $siteTitle }}
   {{- end -}}
 {{- end -}}
