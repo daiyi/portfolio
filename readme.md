@@ -9,6 +9,13 @@ debugging sadness:
 <script>console.log({{ var }})</script>
 ```
 
+go template comment:
+
+```
+{{/*
+*/}}
+```
+
 ### notes
 
 - in the frontmatter, image urls must be absolute. in the markdown content, they can be relative.
@@ -26,6 +33,8 @@ each post has a gallery. to activate, make the proper folder structure.
 - see https://regisphilibert.com/blog/2018/01/hugo-page-resources-and-how-to-use-them/
 - cursed webpack https://github.com/sachinchoolur/lightgallery.js
 
+# Writing
+
 ### home page
 
 each post's cover image is determined by the frontmatter:
@@ -39,6 +48,20 @@ cover:
 
 or whatever is the first image resource it can find. or nothing ):
 
-### TODO
+### post order
+
+in the frontmatter:
+```
+weight: <number>
+```
+
+# debugging
+
+### frontmatter
+
+- tag and categories must not be empty if defined. comment out if you want to leave blank.
+- 
+
+# TODO
 
 - fix opengraph shit
