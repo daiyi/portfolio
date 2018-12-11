@@ -13,6 +13,6 @@ cover:
   style:
 menu:
   sidebar:
-    name: cover design
-    parent: illustration
+    weight: 999
+    parent: cover design
 ---

@@ -1,16 +1,15 @@
 ---
-title: "sketchnotes"
+title: "berlin"
 date: 2018-02-25T23:30:00+06:00
 # categories:
 #   -
 # tags:
 #   -
 cover:
-  image:
+  image: journal_2
   caption:
   style:
 menu:
   sidebar:
-    name: sketchnotes
-    weight: 200
+    parent: nature journal
 ---

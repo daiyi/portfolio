@@ -1,16 +1,16 @@
 ---
-title: "hourly comic day 2018"
+title: "stickers"
 date: 2018-02-25T23:30:00+06:00
 categories:
-  - comics
+  - stickers
 tags:
-  - personal
+  - smol
 cover:
   image:
   caption:
   style:
 menu:
   sidebar:
-    parent: hourly comic day
-    weight: 999
+    name: stickers
+    parent: projects
 ---

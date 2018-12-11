@@ -1,16 +1,16 @@
 ---
-title: "hourly comic day 2018"
+title: "hitching the balkans"
 date: 2018-02-25T23:30:00+06:00
 categories:
-  - comics
+  - journal
 tags:
-  - personal
+  - sketchbook
+  - travel
 cover:
   image:
   caption:
   style:
 menu:
   sidebar:
-    parent: hourly comic day
-    weight: 999
+    parent: travel sketchbook
 ---
