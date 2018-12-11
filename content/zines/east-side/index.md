@@ -15,6 +15,8 @@ menu:
   sidebar:
     name: eastern sierra
     parent: zines
+    weight: 20
+weight: 20
 ---
 
 A zine-shape assembled from the comics I drew on a small climbing/work trip to the east side with marco \o/

@@ -1,5 +1,6 @@
 ---
 title: distractibility cartographers
+description: a zine collective
 date: 2018-04-01T23:30:00+06:00
 # categories:
 #   -

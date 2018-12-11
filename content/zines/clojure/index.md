@@ -15,6 +15,8 @@ menu:
   sidebar:
     name: clojure
     parent: zines
+    weight: 10
+weight: 10
 ---
 
 Summer 2018 was a dream. me & saskia were writing open source under the auspices of rgsoc & the clojure community, which gave me a home in berlin <3
