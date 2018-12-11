@@ -1,5 +1,5 @@
 <header class='header'>
-  <div class='container sep-after'>
+  <div class='container'>
     <div class='header-info'>
       <h1 class='title'>
         {{- if eq .Kind "taxonomy" -}}
@@ -17,7 +17,6 @@
           {{- .Title -}}
         {{- end -}}
       </h1>
-      {{ partial "nav/menus/breadcrumb" . }}
 
       {{ partial "header/description" . }}
     </div>

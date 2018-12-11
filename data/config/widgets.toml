@@ -14,6 +14,10 @@ excludeTypes = ["page"]               # default: ["page"]
 [search]
 title = "Search"                      # default: "Search"
 
+[breadcrumbs]
+separator = "/"
+excludeParents = ["page"]
+
 # Sidebar Menu Widget config
 [sidebar_menu]
 title = ""                            # default: ""

@@ -44,6 +44,7 @@ hideMainMenu = false
 enable = true
 
 [params.widgets]
+header = ["breadcrumbs"]
 homepage = []
 sidebar = ["about","sidebar_menu", "social_menu"]
 footer = []

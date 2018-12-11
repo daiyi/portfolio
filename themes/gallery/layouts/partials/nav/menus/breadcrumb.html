@@ -1,3 +1,4 @@
+{{/* DEPRECATED use widget instead. */}}
 {{- $defaultConfig := .Site.Data.config.default.widgets.sidebar_menu -}}
 {{- $configData := ( or .Site.Data.config.widgets.sidebar_menu $defaultConfig ) -}}
 {{- $lang := .Site.Language.Lang -}}
@@ -39,8 +40,9 @@
 
 
 
-
-
+{{/*
+  <!-- ALSO be sure to edit sidebar_menu.html -->
+  */}}
 {{- define "breadcrumb_item" -}}
 
 {{- $breadcrumbMenu := ( .Page.Scratch.Get "breadcrumbMenu" ) -}}
@@ -57,12 +59,12 @@
 '>
 
   <!-- # parent breadcrumb -->
-  {{- if (or $hasCurrent .showTree) -}}
+  {{- if (and (or $hasCurrent .showTree) .Item.Name) -}}
     <a class='item-link' {{ if $isCurrent -}} aria-current='page' {{ end -}} href='{{ .Item.URL }}'>
       {{- .Item.Name -}}
     </a>
   {{- end -}}
-  
+
   {{/*
   <!-- # show children only if in breadcrumb chain -->
   {{- if (and $isCurrent $hasChildren) -}}
