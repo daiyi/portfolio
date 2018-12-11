@@ -60,8 +60,23 @@ weight: <number>
 ### frontmatter
 
 - tag and categories must not be empty if defined. comment out if you want to leave blank.
-- 
+
+### sidebar menu
+
+- In frontmatter, set sidebar weight to `999` to exclude it from heirarchy but still have the menu subtree expand when page is viewed
+
+
 
 # TODO
 
 - fix opengraph shit
+- organise content better, (but just get things into buckets for now)
+  - figure out what the deal is with information heirarchy
+    - how do I sort out "illustraion" vs "drawings"??
+  - split out into individual posts
+  - preview images?
+  - haha the dates are all random
+- image processing. make different sizes for media queries / previews
+- write descriptions for posts
+- link back to root page in sensible manner
+- make photo viewer zoomable

@@ -42,26 +42,28 @@
 {{- $hasCurrent := ( .Page.HasMenuCurrent $menu .Item ) -}}
 {{- $hasChildren := ( .Item.HasChildren ) -}}
 
-<li class='item
-  {{- if $hasChildren }} has-children {{- end -}}
-  {{- if $hasCurrent }} has-current {{- end -}}
-  {{- if $isCurrent }} current {{- end -}}
-'>
-  <a class='item-link' {{ if $isCurrent -}} aria-current='page' {{ end -}} href='{{ .Item.URL }}'>
-    {{- .Item.Name -}}
-  </a>
+{{- if (not (eq 999 .Item.Weight)) }}
+  <li class='item
+    {{- if $hasChildren }} has-children {{- end -}}
+    {{- if $hasCurrent }} has-current {{- end -}}
+    {{- if $isCurrent }} current {{- end -}}
+  '>
+    <a class='item-link' {{ if $isCurrent -}} aria-current='page' {{ end -}} href='{{ .Item.URL }}'>
+      {{- .Item.Name -}}
+    </a>
 
-  <!-- # Expand menu if in this menu section -->
-  {{- if $hasChildren -}}
-    {{- if or $hasCurrent $isCurrent -}}
-      <ul class='sub-menu'>
-      {{- range .Item.Children -}}
-        {{- template "menu_item" ( dict "Item" . "Page" $.Page ) -}}
+    <!-- # Expand menu if in this menu section -->
+    {{- if $hasChildren -}}
+      {{- if or $hasCurrent $isCurrent -}}
+        <ul class='sub-menu'>
+        {{- range .Item.Children -}}
+          {{- template "menu_item" ( dict "Item" . "Page" $.Page ) -}}
+        {{- end -}}
+        </ul>
       {{- end -}}
-      </ul>
     {{- end -}}
-  {{- end -}}
 
-</li>
+  </li>
+{{- end -}}
 
 {{- end -}}
