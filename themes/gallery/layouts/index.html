@@ -6,7 +6,10 @@
 </div>
 {{ end }}
 <!-- # Homepage image flow -->
-<!-- <div class="covers">
+
+
+{{/*
+  <!-- <div class="covers">
 {{ range .Paginator.Pages }}
     {{ if .Params.cover }}
       {{ .Render "cover_li" }}
@@ -14,6 +17,7 @@
 {{ end }}
 </div>
 {{ partial "nav/pagination" . }} -->
+*/}}
 
 {{- $homepageWidgets := .Site.Params.widgets.homepage -}}
 {{- if $homepageWidgets -}}

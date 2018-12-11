@@ -10,7 +10,7 @@
 
 <div class='container list-container'>
   <div class='covers'>
-    {{ range .Paginator.Pages }}
+    {{ range .Paginator.Pages.ByWeight }}
       {{ .Render "cover_li" }}
     {{ end }}
   </div>
