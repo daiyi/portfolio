@@ -10,7 +10,7 @@
   {{ end }}
 
   {{ with $.Scratch.Get "imgFileName" }}
-    {{ with . | printf "*%v*"  | $.Resources.GetMatch }}
+    {{ with . | printf "*%s*"  | $.Resources.GetMatch }}
       {{ $.Scratch.Set "coverResource" . }}
     {{ end }}
   {{ end }}
@@ -20,16 +20,28 @@
   {{ .Scratch.Set "coverResource" (index (.Resources.ByType "image") 0) }}
 {{ end }}
 
-{{ $cover := .Scratch.Get "coverResource" }}
+{{ $coverResource := .Scratch.Get "coverResource" }}
+{{ $cover := ($coverResource.Fit "400x600 Lanczos") }}
+
+{{ if not ( .Scratch.Get "coverResource" ) }}
+  {{ with .Params.cover }}
+    {{ if $isMap }}
+      {{ $cover = .image }}
+    {{ else }}
+      {{ $cover = . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
 
 {{- with $cover.Permalink -}}
-  <div class='entry-cover cover-{{- if $isMap -}}
-    {{- with $.Params.cover.style -}} {{ . }} {{- else -}} normal {{- end -}}
-    {{- else -}} normal {{- end -}}
+  <div class='entry-cover cover-{{/*{{- if $isMap -}}
+     {{- with $.Params.cover.style -}} {{ . }} {{- else -}} normal {{- end -}}
+    {{- else -}} normal {{- end -}} */}}
+    cover-normal cover
   '>
     <a href="{{ $.Permalink }}">
       <figure>
-        <img src='{{ . | relURL }}'
+        <img src='{{ $cover.RelPermalink }}'
           {{- if $isMap }}
             {{- with ( $.Params.cover.alternate | default $.Params.cover.caption ) }} alt='{{ . | markdownify }}'{{ end -}}
           {{ end -}} />

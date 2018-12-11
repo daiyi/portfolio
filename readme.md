@@ -16,6 +16,8 @@ go template comment:
 */}}
 ```
 
+- to garbage-collect processed images: `hugo --gc`
+
 ### notes
 
 - in the frontmatter, image urls must be absolute. in the markdown content, they can be relative.
@@ -25,6 +27,11 @@ go template comment:
 
 - `{{< img "*image_file_name_substring*" "caption" >}}`
 
+- processed images: `{{< imgproc image_file_name_substring [Resize|Fit|Fill] "300x" />}}`
+  - examples:
+    - `{{ $image.Resize "600x q50" }}`
+    - `{{ $image.Resize "600x400 Lanczos" }}`
+
 ### auto gallery
 
 each post has a gallery. to activate, make the proper folder structure.
@@ -32,6 +39,7 @@ each post has a gallery. to activate, make the proper folder structure.
 - add `caption` metadata
 - see https://regisphilibert.com/blog/2018/01/hugo-page-resources-and-how-to-use-them/
 - cursed webpack https://github.com/sachinchoolur/lightgallery.js
+- use `cover: hideInGallery` to hide preview img
 
 # Writing
 
@@ -51,6 +59,7 @@ or whatever is the first image resource it can find. or nothing ):
 ### post order
 
 in the frontmatter:
+
 ```
 weight: <number>
 ```
@@ -64,8 +73,6 @@ weight: <number>
 ### sidebar menu
 
 - In frontmatter, set sidebar weight to `999` to exclude it from heirarchy but still have the menu subtree expand when page is viewed
-
-
 
 # TODO
 

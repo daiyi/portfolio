@@ -1,6 +1,7 @@
 ---
 date: 2018-11-18T23:30:00+06:00
-title: "2 peak bags in Tahoe: nature journals of my first oguls"
+title: 2 peak bags in Tahoe
+description: nature journals of my first oguls
 categories:
   - nature journal
 tags:
@@ -8,7 +9,7 @@ tags:
   - tahoe
   - journaling
 cover:
-  image: blue_landscape_watercolour_naturejournal_22.png
+  image: preview
   caption: peakbagging tahoe
   style: wide
 menu:

@@ -92,3 +92,6 @@ page = "/:slug/"
 lang = "en"
 languageName = "English"
 weight = 1
+
+[imaging]
+quality = 100

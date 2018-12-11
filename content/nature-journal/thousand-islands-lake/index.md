@@ -1,6 +1,7 @@
 ---
 date: 2018-11-15T23:30:00+06:00
-title: "Thousand Island Lakes, a backpacking trip in watercolour journals"
+title: "Thousand Island Lakes"
+description: "a backpacking trip in watercolour journals"
 categories:
   - nature journal
 tags:
@@ -13,9 +14,8 @@ menu:
     name: thousand island lakes
     parent: nature journal
 cover:
-  image: 19
+  image: preview
   caption: camp at a lake
-  style: wide
 ---
 
 We went for a stroll in the High Sierra. We woke up covered in frost.
