@@ -9,7 +9,12 @@ addons:
       - python-pygments
 
 before_script:
-  - go get github.com/spf13/hugo
+  - go get github.com/magefile/mage
+  - go get -d github.com/gohugoio/hugo
+  - cd ${GOPATH:-$HOME/go}/src/github.com/gohugoio/hugo
+  - mage vendor
+  - mage install
+  - cd ${TRAVIS_BUILD_DIR}
 
 # Clean and don't fail
 install:
