@@ -29,4 +29,17 @@
   img {
     margin-bottom: 35px;
   }
+
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  figure {
+    margin-bottom: 40px;
+    figcaption {
+      margin-bottom: 30px;
+      margin-top: -20px;
+      max-width: 500px;
+    }
+  }
 }

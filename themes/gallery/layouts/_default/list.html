@@ -10,10 +10,14 @@
 
 <div class='container list-container'>
   <div class='covers'>
+    {{ range .Sections.ByWeight }}
+    {{ .Render "cover_li" }}
+    {{ end }}
+  </div>
+  <div class='covers'>
     {{ range .Paginator.Pages.ByWeight }}
       {{ .Render "cover_li" }}
     {{ end }}
-  </div>
 
   {{ partial "nav/pagination" . }}
 </div>

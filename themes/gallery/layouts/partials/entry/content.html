@@ -10,7 +10,7 @@
           {{ range . }}
             {{ if not (and $pageParams.cover.hideInGallery (in .Name $pageParams.cover.image))}}
           		<a href="{{ .RelPermalink }}" {{- with .Params.caption }} data-sub-html="{{ . }}" {{ end -}} >
-            		<img src="{{ .RelPermalink }}" />
+            		<img src="{{ (.Fit "740x1100 Lanczos").RelPermalink }}" />
                 {{ with .Params.caption }} {{ . }} {{ end }}
             	</a>
             {{ end }}

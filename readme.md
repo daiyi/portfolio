@@ -27,10 +27,19 @@ go template comment:
 
 - `{{< img "*image_file_name_substring*" "caption" >}}`
 
-- processed images: `{{< imgproc image_file_name_substring [Resize|Fit|Fill] "300x" />}}`
-  - examples:
-    - `{{ $image.Resize "600x q50" }}`
-    - `{{ $image.Resize "600x400 Lanczos" }}`
+#### processed images
+
+```
+{{< imgproc "image_file_name_substring" [Resize|Fit|Fill] "300x" "caption" />}}
+    caption here
+{{< /imgproc >}}
+```
+
+- examples as markdown shortcodes:
+  - `{{< imgproc "home_comics_1" Fit "740x1100 Lanczos" "My mom." >}}`
+- examples as go tmpl:
+  - `{{ $image.Resize "600x q50" }}`
+  - `{{ $image.Fit "740x1100 Lanczos" }}`
 
 ### auto gallery
 
@@ -87,3 +96,5 @@ weight: <number>
 - write descriptions for posts
 - link back to root page in sensible manner
 - make photo viewer zoomable
+- lightgallery shortcodes
+  - go back and enable lightgallery for manually laid-out posts

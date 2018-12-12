@@ -12,22 +12,22 @@
 {{ errorf "Invalid image processing command: Must be one of Fit, Fill or Resize."}}
 {{ end }}
 {{ $image := .Scratch.Get "image" }}
-<div class="entry-cover">
+<div>
 <figure>
 	<img src="{{ $image.RelPermalink }}">
 	<figcaption class='container'>
-	<small>
-	{{ with .Inner }}
-	{{ . }}
-	{{ else }}
-	{{ $caption }}
-	{{ end }}
-	</small>
+		<small>
+		{{ with .Inner }}
+		{{ . }}
+		{{ else }}
+		{{ $caption }}
+		{{ end }}
+		</small>
 	</figcaption>
 </figure>
 </div>
 
 {{/*
     usage:
-    {{< imgproc sunset Resize "300x" />}}
+    {{< imgproc sunset Resize "300x Lanczos" />}}
 	*/}}

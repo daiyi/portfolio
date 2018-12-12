@@ -3,7 +3,7 @@
   list-style: none;
 
   &-container {
-    max-width: 1600px;
+    max-width: initial;
 
     .entry + & {
       margin-top: 2.5em;

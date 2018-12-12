@@ -3,7 +3,7 @@
 }
 
 .main {
-  width: 100%;
+  // width: 100%;
   padding: 2em;
 
   transition: margin-left $transition-duration;
@@ -13,10 +13,10 @@
   }
 
   @include screen($breakpoint-medium) {
-    width: auto;
+    // width: auto;
 
     .has-sidebar & {
-      float: left;
+      // float: left;
       margin-left: $sidebar__width;
       padding-left: 2em;
     }

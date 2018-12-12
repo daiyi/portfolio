@@ -5,19 +5,29 @@
   {{ partial "entry/content" . }}
 </div>
 {{ end }}
+
+<!-- TODO top level sections images -->
+<!-- {{/*
+<div class="covers">
+{{ range .Sections }}
+    <script>console.log({{ .Params.cover }})</script>
+    {{ with (index .Pages 0) }}
+      {{ .Render "cover_li" }}
+    {{ end }}
+{{ end }}
+</div>
+*/}} -->
+
 <!-- # Homepage image flow -->
-
-
-{{/*
-  <!-- <div class="covers">
+<!-- {{/* <div class="covers">
 {{ range .Paginator.Pages }}
     {{ if .Params.cover }}
       {{ .Render "cover_li" }}
     {{ end }}
 {{ end }}
 </div>
-{{ partial "nav/pagination" . }} -->
-*/}}
+{{ partial "nav/pagination" . }} */}} -->
+
 
 {{- $homepageWidgets := .Site.Params.widgets.homepage -}}
 {{- if $homepageWidgets -}}
