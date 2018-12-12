@@ -11,8 +11,8 @@ addons:
 before_script:
   - wget https://github.com/gohugoio/hugo/releases/download/v0.52/hugo_0.52_Linux-64bit.deb
   - sudo dpkg -i hugo*.deb
-  - yarn --cwd themes/gallery
-  - export PATH="$PATH:`yarn global bin`"
+  # - yarn --cwd themes/gallery
+  # - export PATH="$PATH:`yarn global bin`"
 
 # Clean and don't fail
 install:
@@ -20,7 +20,7 @@ install:
 
 # Build the website
 script:
-  - yarn --cwd themes/gallery build
+  # - yarn --cwd themes/gallery build # this is the worst
   - hugo --theme=gallery
 
 # Deploy to GitHub pages
