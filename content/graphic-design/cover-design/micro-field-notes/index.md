@@ -16,3 +16,5 @@ menu:
     weight: 999
     parent: cover design
 ---
+
+The tiniest Field Notes imitation gifted to me by the inimitable rfong, with a cover design I added featuring the silently screaming faces of our backpacking tents.

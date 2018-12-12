@@ -8,7 +8,7 @@ tags:
   - watercolour
   - journaling
 cover:
-  image: "10"
+  image: "preview"
   caption: the highest point in the country
   style: wide
 menu:

@@ -4,4 +4,5 @@ menu:
   sidebar:
     name: hourly comic day
     parent: comics
+    weight: 30
 ---

@@ -16,6 +16,7 @@ menu:
 cover:
   image: preview
   caption: camp at a lake
+weight: 20
 ---
 
 We went for a stroll in the High Sierra. We woke up covered in frost.
