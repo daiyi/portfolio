@@ -12,6 +12,7 @@ before_script:
   - wget https://github.com/gohugoio/hugo/releases/download/v0.52/hugo_0.52_Linux-64bit.deb
   - sudo dpkg -i hugo*.deb
   - yarn --cwd themes/gallery
+  - export PATH="$PATH:`yarn global bin`"
 
 # Clean and don't fail
 install:
