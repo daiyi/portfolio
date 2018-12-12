@@ -9,12 +9,8 @@ addons:
       - python-pygments
 
 before_script:
-  - go get github.com/magefile/mage
-  - go get -d github.com/gohugoio/hugo
-  - cd ${GOPATH:-$HOME/go}/src/github.com/gohugoio/hugo
-  - mage vendor
-  - mage install
-  - cd ${TRAVIS_BUILD_DIR}
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.52/hugo_0.52_Linux-64bit.deb
+  - sudo dpkg -i hugo*.deb
 
 # Clean and don't fail
 install:
