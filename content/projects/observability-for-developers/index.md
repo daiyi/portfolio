@@ -12,4 +12,4 @@ menu:
     parent: projects
 ---
 
-I illustrated an ebook about implementing observability. You can download it here (: # TODO
+I illustrated an ebook about implementing observability. You can download it [here](https://www.honeycomb.io/resources/guide-observability-for-developers) (:
