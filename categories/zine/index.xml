@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>zine on daiyi</title>
+    <link>https://daiyi.co/portfolio/categories/zine/</link>
+    <description>Recent content in zine on daiyi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 15 Jul 2017 23:30:00 +0600</lastBuildDate>
+    
+	<atom:link href="https://daiyi.co/portfolio/categories/zine/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>a smol zine about clojure</title>
+      <link>https://daiyi.co/portfolio/zines/clojure/</link>
+      <pubDate>Sat, 15 Jul 2017 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/zines/clojure/</guid>
+      <description>Summer 2018 was a dream. me &amp;amp; saskia were writing open source under the auspices of rgsoc &amp;amp; the clojure community, which gave me a home in berlin &amp;lt;3
+(zine format is not simple to print or read. to recieve a copy, you can email/message me and I&amp;rsquo;ll send you a physically assembled one.)
+Here&amp;rsquo;s a preview of the cover:</description>
+    </item>
+    
+    <item>
+      <title>a tiny life in the east side</title>
+      <link>https://daiyi.co/portfolio/zines/east-side/</link>
+      <pubDate>Sat, 08 Dec 2018 04:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/zines/east-side/</guid>
+      <description>A zine-shape assembled from the comics I drew on a small climbing/work trip to the east side with marco \o/
+(zine format is not simple to print or read. to recieve a copy, you can email/message me and I&amp;rsquo;ll send you a physically assembled one.)
+Here&amp;rsquo;s a preview of the cover:</description>
+    </item>
+    
+    <item>
+      <title>daiyi&#39;s family: micro-zine</title>
+      <link>https://daiyi.co/portfolio/zines/daiyi-family-microzine/</link>
+      <pubDate>Sun, 25 Feb 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/zines/daiyi-family-microzine/</guid>
+      <description>This is a staple-less micro-zine that I folded out of single sheet of paper. There is not a digital copy available (: I&amp;rsquo;m happy to show it to you in person.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cover design on daiyi</title>
+    <link>https://daiyi.co/portfolio/graphic-design/cover-design/</link>
+    <description>Recent content in cover design on daiyi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 25 Feb 2018 23:30:00 +0600</lastBuildDate>
+    
+	<atom:link href="https://daiyi.co/portfolio/graphic-design/cover-design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>adventure log</title>
+      <link>https://daiyi.co/portfolio/graphic-design/cover-design/adventure-log/</link>
+      <pubDate>Sun, 25 Feb 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/graphic-design/cover-design/adventure-log/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>micro field notes</title>
+      <link>https://daiyi.co/portfolio/graphic-design/cover-design/micro-field-notes/</link>
+      <pubDate>Sun, 25 Feb 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/graphic-design/cover-design/micro-field-notes/</guid>
+      <description>The tiniest Field Notes imitation gifted to me by the inimitable rfong, with a cover design I added featuring the silently screaming faces of our backpacking tents.</description>
+    </item>
+    
+  </channel>
+</rss>

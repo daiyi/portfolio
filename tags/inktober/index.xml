@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>inktober on daiyi</title>
+    <link>https://daiyi.co/portfolio/tags/inktober/</link>
+    <description>Recent content in inktober on daiyi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 30 Oct 2014 23:30:00 +0600</lastBuildDate>
+    
+	<atom:link href="https://daiyi.co/portfolio/tags/inktober/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>galaxy tripping</title>
+      <link>https://daiyi.co/portfolio/comics/galaxy-tripping/</link>
+      <pubDate>Thu, 30 Oct 2014 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/comics/galaxy-tripping/</guid>
+      <description>The story of three friends as they make a road trip across the galaxy in their avocado spaceship.
+I drew this comic as a part of Inktober 2014 \o/ The first four pages are here.</description>
+    </item>
+    
+  </channel>
+</rss>

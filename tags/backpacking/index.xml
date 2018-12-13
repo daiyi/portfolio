@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>backpacking on daiyi</title>
+    <link>https://daiyi.co/portfolio/tags/backpacking/</link>
+    <description>Recent content in backpacking on daiyi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 15 Nov 2018 23:30:00 +0600</lastBuildDate>
+    
+	<atom:link href="https://daiyi.co/portfolio/tags/backpacking/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Thousand Island Lakes</title>
+      <link>https://daiyi.co/portfolio/nature-journal/thousand-islands-lake/</link>
+      <pubDate>Thu, 15 Nov 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/nature-journal/thousand-islands-lake/</guid>
+      <description>We went for a stroll in the High Sierra. We woke up covered in frost.</description>
+    </item>
+    
+    <item>
+      <title>London, Scotland, West Highland Way, Ireland</title>
+      <link>https://daiyi.co/portfolio/travel-sketchbook/uk/</link>
+      <pubDate>Sun, 25 Feb 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/travel-sketchbook/uk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>micro field notes</title>
+      <link>https://daiyi.co/portfolio/graphic-design/cover-design/micro-field-notes/</link>
+      <pubDate>Sun, 25 Feb 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/graphic-design/cover-design/micro-field-notes/</guid>
+      <description>The tiniest Field Notes imitation gifted to me by the inimitable rfong, with a cover design I added featuring the silently screaming faces of our backpacking tents.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>textile on daiyi</title>
+    <link>https://daiyi.co/portfolio/tags/textile/</link>
+    <description>Recent content in textile on daiyi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 02 Aug 2013 23:30:00 +0600</lastBuildDate>
+    
+	<atom:link href="https://daiyi.co/portfolio/tags/textile/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>sea silk scarf</title>
+      <link>https://daiyi.co/portfolio/projects/ocean-silk-scarf/</link>
+      <pubDate>Fri, 02 Aug 2013 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/projects/ocean-silk-scarf/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

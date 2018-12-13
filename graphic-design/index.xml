@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>graphic design on daiyi</title>
+    <link>https://daiyi.co/portfolio/graphic-design/</link>
+    <description>Recent content in graphic design on daiyi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 25 Feb 2018 23:30:00 +0600</lastBuildDate>
+    
+	<atom:link href="https://daiyi.co/portfolio/graphic-design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>icon &amp; logo</title>
+      <link>https://daiyi.co/portfolio/graphic-design/icons/</link>
+      <pubDate>Sun, 25 Feb 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/graphic-design/icons/</guid>
+      <description>    sled, a database        the needles, sequoia national park        computer club        SPACE COOP     </description>
+    </item>
+    
+  </channel>
+</rss>

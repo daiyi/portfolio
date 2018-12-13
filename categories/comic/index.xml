@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>comic on daiyi</title>
+    <link>https://daiyi.co/portfolio/categories/comic/</link>
+    <description>Recent content in comic on daiyi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 02 Aug 2013 23:30:00 +0600</lastBuildDate>
+    
+	<atom:link href="https://daiyi.co/portfolio/categories/comic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>slice of life comics</title>
+      <link>https://daiyi.co/portfolio/comics/pwt/</link>
+      <pubDate>Fri, 02 Aug 2013 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/comics/pwt/</guid>
+      <description>a potpourri of lifetimes, art styles, and odd encounters, previously serialised for close friends and roommates.
+home comics My family deserves a storyline of its own.
+   A typical sampler of home visit interactions.        I helped my mama set up her first social profile when I was home for winter break one year. Fast-forward to today and she is engaging in youtube video comment flame wars with strangers on the internet.</description>
+    </item>
+    
+    <item>
+      <title>dirtbag sketchbook journal</title>
+      <link>https://daiyi.co/portfolio/comics/comic-journal-sketchbook/</link>
+      <pubDate>Wed, 02 Aug 2017 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/comics/comic-journal-sketchbook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>galaxy tripping</title>
+      <link>https://daiyi.co/portfolio/comics/galaxy-tripping/</link>
+      <pubDate>Thu, 30 Oct 2014 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/comics/galaxy-tripping/</guid>
+      <description>The story of three friends as they make a road trip across the galaxy in their avocado spaceship.
+I drew this comic as a part of Inktober 2014 \o/ The first four pages are here.</description>
+    </item>
+    
+    <item>
+      <title>random</title>
+      <link>https://daiyi.co/portfolio/comics/random/</link>
+      <pubDate>Fri, 02 Aug 2013 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/comics/random/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

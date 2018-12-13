@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tech on daiyi</title>
+    <link>https://daiyi.co/portfolio/tags/tech/</link>
+    <description>Recent content in tech on daiyi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 15 Jul 2017 23:30:00 +0600</lastBuildDate>
+    
+	<atom:link href="https://daiyi.co/portfolio/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>a smol zine about clojure</title>
+      <link>https://daiyi.co/portfolio/zines/clojure/</link>
+      <pubDate>Sat, 15 Jul 2017 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/zines/clojure/</guid>
+      <description>Summer 2018 was a dream. me &amp;amp; saskia were writing open source under the auspices of rgsoc &amp;amp; the clojure community, which gave me a home in berlin &amp;lt;3
+(zine format is not simple to print or read. to recieve a copy, you can email/message me and I&amp;rsquo;ll send you a physically assembled one.)
+Here&amp;rsquo;s a preview of the cover:</description>
+    </item>
+    
+    <item>
+      <title>Observability for Developers</title>
+      <link>https://daiyi.co/portfolio/projects/observability-for-developers/</link>
+      <pubDate>Wed, 28 Nov 2018 12:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/projects/observability-for-developers/</guid>
+      <description>I illustrated an ebook about implementing observability. You can download it here (:</description>
+    </item>
+    
+  </channel>
+</rss>

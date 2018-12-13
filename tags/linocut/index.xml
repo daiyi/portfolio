@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linocut on daiyi</title>
+    <link>https://daiyi.co/portfolio/tags/linocut/</link>
+    <description>Recent content in linocut on daiyi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 15 Nov 2018 23:30:00 +0600</lastBuildDate>
+    
+	<atom:link href="https://daiyi.co/portfolio/tags/linocut/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Vanna Cafe</title>
+      <link>https://daiyi.co/portfolio/projects/vanna/</link>
+      <pubDate>Thu, 15 Nov 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/projects/vanna/</guid>
+      <description>A branding project for the crag-side pop-up cafe that marco&amp;rsquo;s van sometimes transforms into a cafe if the moment arises \o/</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vanlife on daiyi</title>
+    <link>https://daiyi.co/portfolio/tags/vanlife/</link>
+    <description>Recent content in vanlife on daiyi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 08 Dec 2018 04:30:00 +0600</lastBuildDate>
+    
+	<atom:link href="https://daiyi.co/portfolio/tags/vanlife/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>a tiny life in the east side</title>
+      <link>https://daiyi.co/portfolio/zines/east-side/</link>
+      <pubDate>Sat, 08 Dec 2018 04:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/zines/east-side/</guid>
+      <description>A zine-shape assembled from the comics I drew on a small climbing/work trip to the east side with marco \o/
+(zine format is not simple to print or read. to recieve a copy, you can email/message me and I&amp;rsquo;ll send you a physically assembled one.)
+Here&amp;rsquo;s a preview of the cover:</description>
+    </item>
+    
+    <item>
+      <title>Vanna Cafe</title>
+      <link>https://daiyi.co/portfolio/projects/vanna/</link>
+      <pubDate>Thu, 15 Nov 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/projects/vanna/</guid>
+      <description>A branding project for the crag-side pop-up cafe that marco&amp;rsquo;s van sometimes transforms into a cafe if the moment arises \o/</description>
+    </item>
+    
+  </channel>
+</rss>

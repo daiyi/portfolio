@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>daiyi</title>
+    <link>https://daiyi.co/portfolio/</link>
+    <description>Recent content on daiyi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 15 Jul 2017 23:30:00 +0600</lastBuildDate>
+    
+	<atom:link href="https://daiyi.co/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>a smol zine about clojure</title>
+      <link>https://daiyi.co/portfolio/zines/clojure/</link>
+      <pubDate>Sat, 15 Jul 2017 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/zines/clojure/</guid>
+      <description>Summer 2018 was a dream. me &amp;amp; saskia were writing open source under the auspices of rgsoc &amp;amp; the clojure community, which gave me a home in berlin &amp;lt;3
+(zine format is not simple to print or read. to recieve a copy, you can email/message me and I&amp;rsquo;ll send you a physically assembled one.)
+Here&amp;rsquo;s a preview of the cover:</description>
+    </item>
+    
+    <item>
+      <title>a tiny life in the east side</title>
+      <link>https://daiyi.co/portfolio/zines/east-side/</link>
+      <pubDate>Sat, 08 Dec 2018 04:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/zines/east-side/</guid>
+      <description>A zine-shape assembled from the comics I drew on a small climbing/work trip to the east side with marco \o/
+(zine format is not simple to print or read. to recieve a copy, you can email/message me and I&amp;rsquo;ll send you a physically assembled one.)
+Here&amp;rsquo;s a preview of the cover:</description>
+    </item>
+    
+    <item>
+      <title>Thousand Island Lakes</title>
+      <link>https://daiyi.co/portfolio/nature-journal/thousand-islands-lake/</link>
+      <pubDate>Thu, 15 Nov 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/nature-journal/thousand-islands-lake/</guid>
+      <description>We went for a stroll in the High Sierra. We woke up covered in frost.</description>
+    </item>
+    
+    <item>
+      <title>slice of life comics</title>
+      <link>https://daiyi.co/portfolio/comics/pwt/</link>
+      <pubDate>Fri, 02 Aug 2013 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/comics/pwt/</guid>
+      <description>a potpourri of lifetimes, art styles, and odd encounters, previously serialised for close friends and roommates.
+home comics My family deserves a storyline of its own.
+   A typical sampler of home visit interactions.        I helped my mama set up her first social profile when I was home for winter break one year. Fast-forward to today and she is engaging in youtube video comment flame wars with strangers on the internet.</description>
+    </item>
+    
+    <item>
+      <title>[typography]</title>
+      <link>https://daiyi.co/portfolio/typography/</link>
+      <pubDate>Thu, 28 Sep 2017 08:00:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/typography/</guid>
+      <description>Here is a paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Heading 2 Another one. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Heading 3 Yet another, but centered! Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>daiyi&#39;s family: micro-zine</title>
+      <link>https://daiyi.co/portfolio/zines/daiyi-family-microzine/</link>
+      <pubDate>Sun, 25 Feb 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/zines/daiyi-family-microzine/</guid>
+      <description>This is a staple-less micro-zine that I folded out of single sheet of paper. There is not a digital copy available (: I&amp;rsquo;m happy to show it to you in person.</description>
+    </item>
+    
+    <item>
+      <title>Observability for Developers</title>
+      <link>https://daiyi.co/portfolio/projects/observability-for-developers/</link>
+      <pubDate>Wed, 28 Nov 2018 12:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/projects/observability-for-developers/</guid>
+      <description>I illustrated an ebook about implementing observability. You can download it here (:</description>
+    </item>
+    
+    <item>
+      <title>2 peak bags in Tahoe</title>
+      <link>https://daiyi.co/portfolio/nature-journal/tahoe-peakbagging-with-yelly/</link>
+      <pubDate>Sun, 18 Nov 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/nature-journal/tahoe-peakbagging-with-yelly/</guid>
+      <description>with thanks to yelly &amp;amp; leo, my lovely hosts for the weekend (:</description>
+    </item>
+    
+    <item>
+      <title>huntington</title>
+      <link>https://daiyi.co/portfolio/nature-journal/huntington/</link>
+      <pubDate>Sun, 18 Nov 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/nature-journal/huntington/</guid>
+      <description>with thanks to yelly &amp;amp; leo, my lovely hosts for the weekend (:</description>
+    </item>
+    
+    <item>
+      <title>photography</title>
+      <link>https://daiyi.co/portfolio/photography/</link>
+      <pubDate>Sun, 18 Nov 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/photography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vanna Cafe</title>
+      <link>https://daiyi.co/portfolio/projects/vanna/</link>
+      <pubDate>Thu, 15 Nov 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/projects/vanna/</guid>
+      <description>A branding project for the crag-side pop-up cafe that marco&amp;rsquo;s van sometimes transforms into a cafe if the moment arises \o/</description>
+    </item>
+    
+    <item>
+      <title>packaging</title>
+      <link>https://daiyi.co/portfolio/projects/packaging/</link>
+      <pubDate>Sun, 15 Apr 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/projects/packaging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>distractibility cartographers</title>
+      <link>https://daiyi.co/portfolio/projects/distractibility-cartographers/</link>
+      <pubDate>Sun, 01 Apr 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/projects/distractibility-cartographers/</guid>
+      <description>a zine collective of daiyi &amp;amp; rfong.  We are a smol group of smol humans chronically distracted by the great open secret that there are worlds of unending fascination tucked into every facet of the mundane. Grab onto our coattails as we organize concepts beyond the point of ludicrosity, precariously tumble down arbitrarily deep rabbitholes of obscure fun facts about things you didn’t know you wanted to know about, and dispense relatable hot tips.</description>
+    </item>
+    
+    <item>
+      <title>London, Scotland, West Highland Way, Ireland</title>
+      <link>https://daiyi.co/portfolio/travel-sketchbook/uk/</link>
+      <pubDate>Sun, 25 Feb 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/travel-sketchbook/uk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Red Rock Canyon, Nevada</title>
+      <link>https://daiyi.co/portfolio/nature-journal/red-rock/</link>
+      <pubDate>Sun, 25 Feb 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/nature-journal/red-rock/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>adventure log</title>
+      <link>https://daiyi.co/portfolio/graphic-design/cover-design/adventure-log/</link>
+      <pubDate>Sun, 25 Feb 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/graphic-design/cover-design/adventure-log/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>camping comics</title>
+      <link>https://daiyi.co/portfolio/comics/camping/</link>
+      <pubDate>Sun, 25 Feb 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/comics/camping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>digital drawings</title>
+      <link>https://daiyi.co/portfolio/illustration/digital/</link>
+      <pubDate>Sun, 25 Feb 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/illustration/digital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>german language</title>
+      <link>https://daiyi.co/portfolio/comics/german/</link>
+      <pubDate>Sun, 25 Feb 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/comics/german/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hitching the balkans</title>
+      <link>https://daiyi.co/portfolio/travel-sketchbook/balkans/</link>
+      <pubDate>Sun, 25 Feb 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/travel-sketchbook/balkans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hourly comic day 2018</title>
+      <link>https://daiyi.co/portfolio/comics/hourly-comic-day/2018/</link>
+      <pubDate>Sun, 25 Feb 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/comics/hourly-comic-day/2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>icon &amp; logo</title>
+      <link>https://daiyi.co/portfolio/graphic-design/icons/</link>
+      <pubDate>Sun, 25 Feb 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/graphic-design/icons/</guid>
+      <description>    sled, a database        the needles, sequoia national park        computer club        SPACE COOP     </description>
+    </item>
+    
+    <item>
+      <title>loft</title>
+      <link>https://daiyi.co/portfolio/projects/loft/</link>
+      <pubDate>Sun, 25 Feb 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/projects/loft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>micro field notes</title>
+      <link>https://daiyi.co/portfolio/graphic-design/cover-design/micro-field-notes/</link>
+      <pubDate>Sun, 25 Feb 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/graphic-design/cover-design/micro-field-notes/</guid>
+      <description>The tiniest Field Notes imitation gifted to me by the inimitable rfong, with a cover design I added featuring the silently screaming faces of our backpacking tents.</description>
+    </item>
+    
+    <item>
+      <title>sketchnotes</title>
+      <link>https://daiyi.co/portfolio/sketchnotes/</link>
+      <pubDate>Sun, 25 Feb 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/sketchnotes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stickers</title>
+      <link>https://daiyi.co/portfolio/projects/stickers/</link>
+      <pubDate>Sun, 25 Feb 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/projects/stickers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>summer in berlin</title>
+      <link>https://daiyi.co/portfolio/travel-sketchbook/berlin/</link>
+      <pubDate>Sun, 25 Feb 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/travel-sketchbook/berlin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>traditional drawings</title>
+      <link>https://daiyi.co/portfolio/illustration/traditional/</link>
+      <pubDate>Sun, 25 Feb 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/illustration/traditional/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dirtbag sketchbook journal</title>
+      <link>https://daiyi.co/portfolio/comics/comic-journal-sketchbook/</link>
+      <pubDate>Wed, 02 Aug 2017 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/comics/comic-journal-sketchbook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Japan with meimei</title>
+      <link>https://daiyi.co/portfolio/travel-sketchbook/japan/</link>
+      <pubDate>Thu, 16 Jul 2015 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/travel-sketchbook/japan/</guid>
+      <description>I went to visit my meimei while she was studying in Japan \o/
+I have quite a number of these pages, but I&amp;rsquo;m holding off on posting the scans because I&amp;rsquo;m possibly going to reshape &amp;amp; distribute them as a zine (:</description>
+    </item>
+    
+    <item>
+      <title>Thailand: watercolour travel journals</title>
+      <link>https://daiyi.co/portfolio/travel-sketchbook/thailand/</link>
+      <pubDate>Thu, 16 Jul 2015 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/travel-sketchbook/thailand/</guid>
+      <description>I spent a couple weeks in Thailand in 2015. I encountered many bugs, many of them are captured below.</description>
+    </item>
+    
+    <item>
+      <title>light-up mural</title>
+      <link>https://daiyi.co/portfolio/projects/blackerathon-mural/</link>
+      <pubDate>Thu, 16 Jul 2015 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/projects/blackerathon-mural/</guid>
+      <description>For our college hovse&amp;rsquo;s first annual hackathon, my roommate kerry &amp;amp; I made a light-up mural.</description>
+    </item>
+    
+    <item>
+      <title>galaxy tripping</title>
+      <link>https://daiyi.co/portfolio/comics/galaxy-tripping/</link>
+      <pubDate>Thu, 30 Oct 2014 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/comics/galaxy-tripping/</guid>
+      <description>The story of three friends as they make a road trip across the galaxy in their avocado spaceship.
+I drew this comic as a part of Inktober 2014 \o/ The first four pages are here.</description>
+    </item>
+    
+    <item>
+      <title>random</title>
+      <link>https://daiyi.co/portfolio/comics/random/</link>
+      <pubDate>Fri, 02 Aug 2013 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/comics/random/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sea silk scarf</title>
+      <link>https://daiyi.co/portfolio/projects/ocean-silk-scarf/</link>
+      <pubDate>Fri, 02 Aug 2013 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/projects/ocean-silk-scarf/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

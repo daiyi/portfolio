@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>projects on daiyi</title>
+    <link>https://daiyi.co/portfolio/projects/</link>
+    <description>Recent content in projects on daiyi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 28 Nov 2018 12:30:00 +0600</lastBuildDate>
+    
+	<atom:link href="https://daiyi.co/portfolio/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Observability for Developers</title>
+      <link>https://daiyi.co/portfolio/projects/observability-for-developers/</link>
+      <pubDate>Wed, 28 Nov 2018 12:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/projects/observability-for-developers/</guid>
+      <description>I illustrated an ebook about implementing observability. You can download it here (:</description>
+    </item>
+    
+    <item>
+      <title>Vanna Cafe</title>
+      <link>https://daiyi.co/portfolio/projects/vanna/</link>
+      <pubDate>Thu, 15 Nov 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/projects/vanna/</guid>
+      <description>A branding project for the crag-side pop-up cafe that marco&amp;rsquo;s van sometimes transforms into a cafe if the moment arises \o/</description>
+    </item>
+    
+    <item>
+      <title>packaging</title>
+      <link>https://daiyi.co/portfolio/projects/packaging/</link>
+      <pubDate>Sun, 15 Apr 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/projects/packaging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>distractibility cartographers</title>
+      <link>https://daiyi.co/portfolio/projects/distractibility-cartographers/</link>
+      <pubDate>Sun, 01 Apr 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/projects/distractibility-cartographers/</guid>
+      <description>a zine collective of daiyi &amp;amp; rfong.  We are a smol group of smol humans chronically distracted by the great open secret that there are worlds of unending fascination tucked into every facet of the mundane. Grab onto our coattails as we organize concepts beyond the point of ludicrosity, precariously tumble down arbitrarily deep rabbitholes of obscure fun facts about things you didn’t know you wanted to know about, and dispense relatable hot tips.</description>
+    </item>
+    
+    <item>
+      <title>loft</title>
+      <link>https://daiyi.co/portfolio/projects/loft/</link>
+      <pubDate>Sun, 25 Feb 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/projects/loft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stickers</title>
+      <link>https://daiyi.co/portfolio/projects/stickers/</link>
+      <pubDate>Sun, 25 Feb 2018 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/projects/stickers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>light-up mural</title>
+      <link>https://daiyi.co/portfolio/projects/blackerathon-mural/</link>
+      <pubDate>Thu, 16 Jul 2015 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/projects/blackerathon-mural/</guid>
+      <description>For our college hovse&amp;rsquo;s first annual hackathon, my roommate kerry &amp;amp; I made a light-up mural.</description>
+    </item>
+    
+    <item>
+      <title>sea silk scarf</title>
+      <link>https://daiyi.co/portfolio/projects/ocean-silk-scarf/</link>
+      <pubDate>Fri, 02 Aug 2013 23:30:00 +0600</pubDate>
+      
+      <guid>https://daiyi.co/portfolio/projects/ocean-silk-scarf/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
